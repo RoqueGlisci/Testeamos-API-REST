@@ -1,0 +1,43 @@
+{
+  "type": "module",
+  "name": "entregable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "mocha ./tests/apirest.test.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "autocannon": "^7.10.0",
+    "axios": "^1.2.1",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "knex": "^2.3.0",
+    "mongoose": "^6.6.1",
+    "mysql": "^2.18.1",
+    "normalizr": "^3.6.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.2",
+    "sqlite3": "^5.0.11",
+    "winston": "^3.8.2",
+    "yargs": "^17.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "supertest": "^6.3.2"
+  }
+}
